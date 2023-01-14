@@ -1,1 +1,1 @@
-# jee-demo-app
+# java-webapp-demo
