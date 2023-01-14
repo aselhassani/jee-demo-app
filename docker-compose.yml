@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  javaee-demo-app-container:
+    image: jee-demo-app:1
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - /data/jee-demo-app
+    ports:
+      - "8888:8080"
